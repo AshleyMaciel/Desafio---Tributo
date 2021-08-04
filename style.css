@@ -1,0 +1,240 @@
+body {
+	background: #AAAAAA;
+}
+
+header {
+	background: url("banner.jpg");
+	padding: 10px 0 20px 0;
+	color: white;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto 30px auto;
+}
+
+.caixa h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+nav{
+	position: inline;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 25px 0 0;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-family: 'Baloo Chettan 2', sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 5px 0 5px 0;
+	border-top: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	transition: 400ms;
+	color: #a1def0;
+}
+
+nav a:active {
+	font-size: 25px;
+}
+
+.banner2 {
+	width: 100%;
+	height: 400px;
+}
+
+main {
+
+}
+
+.titulo-principal {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	border-bottom: 3px solid #a1def0;
+	border-radius: 10px;
+	width: 940px;
+	margin: 1em auto 1em;
+	clear: right;
+}
+
+.titulo-principal:first-letter {
+	font-size: 40px;
+}
+
+/* Css da página inicial */
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.5em 0;
+}
+
+.lazaro {
+	width: 200px;
+	float: right;
+	margin: 0 0 20px 20px;
+	opacity: 1;
+	box-shadow: 10px 15px 10px 0 #000000;
+}
+
+.mapa {
+	background: #000000;
+	padding: 3em 0;
+	color: white;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+	border: 20px solid #a1def0;
+	border-radius: 10px;
+	opacity: 0.6;
+}
+
+.mapa-conteudo:hover {
+	transition: 400ms;
+	opacity: 1;
+}
+
+.mapa p {
+	width: 940px;
+	margin: 0 auto 2em;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.videos {
+	background: #AAAAAA;
+}
+
+.videos h3 {
+	color: white;
+}
+
+.video-um {
+	width: 650px;
+	margin: 2em auto;
+	border: 10px solid #a1def0;
+}
+
+.video-dois {
+	width: 650px;
+	margin: 2em auto;
+	border: 10px solid #a1def0;
+}
+
+.acrescimos p {
+	width: 940px;
+	margin: 0 auto 2em;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.video-tres {
+	width: 650px;
+	margin: 2em auto;
+	border: 10px solid #a1def0;
+}
+
+/* Fim do Css da página inicial */
+
+/*Css página da Galeria */
+
+.fotos {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.fotos-esquerda {
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 4px solid #000000;
+}
+
+.fotos-direita {
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 4px solid #000000;
+}
+
+/* Fim do Css da galeria */
+
+/* Css página de Contato */
+
+.introducao p {
+	width: 940px;
+	margin: 0 auto 2em;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form {
+	margin: 40px 0 40px 32%;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #a1def0;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: royalblue;
+	transform: scale(1.1);
+}
+
+/* Fim da página de contato */
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px 0;
+	color: #FFFFFF;
+}
